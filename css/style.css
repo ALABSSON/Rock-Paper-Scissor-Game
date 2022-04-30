@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: lightgrey;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    color: black;
+    flex-direction: column;
+}
+
+.nav{
+    width: 100%;
+    height: 15%;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Ease-logo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    color: lightgrey;
+}
+
+.container{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maincontain{
+    height: 70%;
+    width: 40%;
+    background-color: rgba(128, 128, 128, 0.202);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.maincontain a{
+    text-decoration: none;
+}
+
+.in-main{
+    height: 70px;
+    width: 150px;
+    background: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    margin-top: 10px;
+    color: grey;
+    border-radius: 20px;
+}
+
+
+
+.About{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.About-content{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: grey;
+    
+}
+
+.About button{
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.About a{
+    text-decoration: none;
+    color: grey;
+}
